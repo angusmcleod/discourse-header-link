@@ -8,7 +8,7 @@ export default class HeaderLinkButton extends Component {
       @translatedLabel="Looking for Pavilion?"
       @translatedTitle="Go to Pavilion's forum"
       id="header-link-button"
-      class="btn-default header-link-button"
+      class="btn-small header-link-button"
     />
   </template>
 }
