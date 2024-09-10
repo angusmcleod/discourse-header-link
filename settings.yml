@@ -1,2 +1,12 @@
-example_setting:
-  default: true
+url: ''
+icon: ''
+custom_icon:
+  type: 'upload'
+  default: ''
+new_tab: false
+label: ''
+title: ''
+background_color: ''
+text_color: ''
+border_color: ''
+show_label_on_mobile: false

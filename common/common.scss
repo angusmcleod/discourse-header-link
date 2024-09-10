@@ -10,4 +10,24 @@
   margin-right: 1em;
   padding: 6px 10px;
   margin-top: 3px;
+
+  @if $background_color {
+    background-color: #{$background_color};
+  } @else {
+    background-color: var(--secondary);
+  }
+  @if $text_color {
+    color: #{$text_color};
+  } @else {
+    color: var(--primary);
+  }
+  @if $border_color {
+    border-color: #{$border_color};
+  }
+
+  img.d-icon {
+    height: 18px;
+    width: 18px;
+    margin-top: -2px;
+  }
 }
